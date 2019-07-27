@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body{
+	font-family: Times New Roman, Arial, Sans-serif;
+	background-color: gray;
+	padding: 20px
+}
+h1{
+	font-size: 50px;
+	border-top: 5px black;
+	border-bottom: 10px black;
+}
+p{
+	font-size: 15px;
+	line-height: 16px;
+}
+ul{
+	font-size: 15px;
+	padding-left: 40px;
+	color: purple;
+	background-color: orange;
+	
+}
+ol{
+	font-size: 15px;
+	padding-left: 40px;
+	color: blue;
+	background-color: green;
+	
+}
+em{
+	font-color: red;
+	font-style: italic;
+	}

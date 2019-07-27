@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+.textdiv{
+	font-weight:bold;
+	font-size:25px;
+	text-align:center;
+	<!--small;-->
+	padding:25px;
+	font-family:"Times New Roman","Open Sans",Helvetica,Arial,sans-serif;
+}
+
+.textdiv_s{
+	font-weight:bold;
+	font-size:9px;
+	text-align:center;
+	<!--small;-->
+	padding:25px;
+	font-family:"Times New Roman","Open Sans",Helvetica,Arial,sans-serif;
+}
+
+.textdiv_xs{
+	font-weight: bold;
+	font-size: 7px;
+	text-align: center;
+	padding: 25px;
+	font-family: "Times new roman","Open Sans",Helvetica, Arial,sans-serif;
+}
+
+.textdiv_m{
+	font-weight:bold;
+	font-size:13px;
+	text-align:center;
+	<!--small;-->
+	padding:25px;
+	font-family:"Times New Roman","Open Sans",Helvetica,Arial,sans-serif;
+}
+
+#chart{
+	
+	width:1420px;
+	height:725px;
+	
+}
+
+
+body{
+	background-color:black;
+}
+
+.grandparent text{
+	 font-weight:bold;
+	font-size:large;
+	font-family:"Times New Roman","Open Sans",Helvetica,Arial,sans-serif;
+}
+
+.grandparent rect{
+	fill:#fef9cb
+}
+
+.legend rect{
+	stroke-width: 2px;
+}
+
+.legend text{
+	text-anchor: middle;
+	pointer-events: auto;
+	font-size: 13px;
+	font-family: "Times new roman";
+	text-align: center;
+	fill: black;
+}

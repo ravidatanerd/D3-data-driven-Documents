@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>JavaScript Example</title>
+<style type="text/css">
+body {
+background-color: #B0C4DE;
+}
+</style>
+</head>
+<body>
+
+<h1> Data Visualization -: Javascript Example</h1>
+<h2> Objects used: Ravi Dawar</h2>
+
+<ol type="1" id=javascript>
+	
+	<li style='background-color: #D88FD8;' id="Array" onclick="Display_array()"  > Display <b>Array</b>   </li>
+	<li style='background-color: #FFDA89;' id="Object" onclick="Display_object()"  > Display <b>Object</b>   </li>
+	<li style='background-color: #B0E0E6;' id="Dataset" onclick="Display_dataset()"  > Display <b>Dataset</b>   </li>
+
+
+<ol type="1">
+
+<script type="text/javascript">
+
+function Display_array() {
+	var li = document.getElementById("Array");
+	var ul = document.createElement("ul");
+	var nestedLi = ul.appendChild(document.createElement("li"));
+	nestedLi.appendChild(document.createTextNode("To view contents of the Arary type 'console.log(array)' in the console" ));
+	li.appendChild(ul);
+	console.log(array);
+	}
+	
+function Display_object() {
+	var li = document.getElementById("Object");
+	var ul = document.createElement("ul");
+	var nestedLi = ul.appendChild(document.createElement("li"));
+	nestedLi.appendChild(document.createTextNode("To view contents of the Object type 'console.log(object)' in the console" ));
+	li.appendChild(ul);
+	var nestedLi = ul.appendChild(document.createElement("li"));
+	nestedLi.appendChild(document.createTextNode("To view contents of the Object attribute 'console.log(object.name)' in the console" ));
+	li.appendChild(ul);
+		console.log(object);
+	}
+	
+function Display_dataset() {
+	var li = document.getElementById("Dataset");
+	var ul = document.createElement("ul");
+	var nestedLi = ul.appendChild(document.createElement("li"));
+	nestedLi.appendChild(document.createTextNode("To view contents of the Dataset Type type 'console.log(dataset)' or just 'dataset' in the console " ));
+	li.appendChild(ul);
+	console.log(dataset);
+	}
+
+// The JavaScript Code is placed between the scripts tags.
+// Creating and displaying varibles in console
+
+var count = 10;
+var name = "Tom";
+
+//console.log(number);
+//console.log(text);
+//console.log(name + " has " + count + "chocolate.");
+
+//Creating and displaying Arrays in Console
+var array = ["Tom","Dick","Alice"];
+
+//console.log(array);
+//console.log(" The value in position 0 is " + array[0]);
+//console.log(" The value in position 1 is " + array[1]);
+//console.log(" The value in position 2 is " + array[2]);
+
+// Creating and Displaying Objects
+var object = {
+		"Name": "Tom",
+		"Age":20,
+		"Major": "ITM"
+};
+// Creating an Array of objects
+var dataset = [
+	{
+		"Name": "Tom",
+		"Age":29,
+		"Major": "ITM"
+},
+{
+	"Name": "Harry",
+	"Age":25,
+	"Major": "Accounting"
+},
+{
+	"Name": "Alice",
+	"Age":20,
+	"Major": "SCM"
+},
+		
+];
+
+// console.log(dataset)
+//console.log(" The value in position 0 is " + dataset[0]);
+//console.log(" The value in position 1 is " + dataset[1]);
+//console.log(" The value in position 2 is " + dataset[2]);
+
+//Fetching the value of an attribure in a data
+// console.log("The name in position 1 is" + dataset[1].Name);
+
+
+</script>
+
+</body>
+</html>
